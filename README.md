@@ -44,7 +44,7 @@ private String HashFunctionThree(String input) {
 ```
 
 You'll be writing three different classes, one for each hashing function. Call them `DashaMapOne, 
-DashaMapTwo, & DashaMapThree`.
+DashaMaps.DashaMapTwo, & DashaMaps.DashaMapThree`.
 
 Build a test harness that can read in the word list and insert each word into each of the 
 three hash-maps.
@@ -66,17 +66,17 @@ interface HashMapX {
 }
 ```
 
-When you create the constructor for each class, you need to create an array of `Node`
-objects. Each `Node` should look like:
+When you create the constructor for each class, you need to create an array of `DashaMaps.Node`
+objects. Each `DashaMaps.Node` should look like:
 
 ```
-Node:
+DashaMaps.Node:
     k: String
     v: Integer
-    next: Node
+    next: DashaMaps.Node
 ```
 
-the hash-array needs to get initialized to 26 long of Node, with each value being 'a'..'z'.
+the hash-array needs to get initialized to 26 long of DashaMaps.Node, with each value being 'a'..'z'.
 
 read in the list of words in `wordlist.txt`. Each word is on it's own line, with a value,
 and as each word is read, insert it into each of the three hash-maps, using the word as the key, 
@@ -87,7 +87,7 @@ When you set a word/value pair: (this is pseudocode)
 ```
 - set(key, value) {
     key-hash = hash-function(key)
-    newval = new Node(key, value)
+    newval = new DashaMaps.Node(key, value)
     append-to(hash-array[key-hash], newval)
 }
 ```
@@ -105,7 +105,7 @@ When you get a word/value pair:
 }
 ```
 
-`find-in(array-slot, key-word)` returns the Node that contains the key-word in the `k` field.
+`find-in(array-slot, key-word)` returns the DashaMaps.Node that contains the key-word in the `k` field.
 (you may want to just do a simple linear search to find the node that has the key in it).
 
 and the Hard One is `delete(key-word)`

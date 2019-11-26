@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b80bc1-7f4b-4db8-8cac-c01fb15ed1b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DashaMaps/DashaMapOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DashaMaps/DashaMapThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DashaMaps/DashaMapTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,6 +81,77 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.DashaMapThreeTest">
+    <configuration name="DashaMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DashaMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DashaMaps" />
+      <option name="MAIN_CLASS_NAME" value="DashaMaps.DashaMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashaMapTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DashaMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DashaMaps" />
+      <option name="MAIN_CLASS_NAME" value="DashaMaps.DashaMapTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashaMapThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DashaMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DashaMaps" />
+      <option name="MAIN_CLASS_NAME" value="DashaMaps.DashaMapThreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashaMapTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DashaMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DashaMaps" />
+      <option name="MAIN_CLASS_NAME" value="DashaMaps.DashaMapTwoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DashaMapThreeTest" />
+        <item itemvalue="JUnit.DashaMapTwoTest" />
+        <item itemvalue="JUnit.DashaMapTest.testToString" />
+        <item itemvalue="JUnit.DashaMapTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -89,7 +167,7 @@
       <updated>1573829927388</updated>
       <workItem from="1573829929190" duration="255000" />
       <workItem from="1574259293241" duration="5666000" />
-      <workItem from="1574635289481" duration="13391000" />
+      <workItem from="1574635289481" duration="18676000" />
     </task>
     <servers />
   </component>

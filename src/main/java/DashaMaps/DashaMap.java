@@ -9,6 +9,7 @@ public class DashaMap {
 
     public DashaMap(){
         nodes = new Node[26];
+        sizes = new long[26];
         for(int i = 0; i < beginningLetters.length; i++){
             nodes[i] = new Node(beginningLetters[i], null);
             nodes[i].setThisIsFirst(true);
@@ -37,8 +38,16 @@ public class DashaMap {
         return null;
     }
 
-    public void performSet(String key, String value, String input) {
+    public void performSet(String key, Integer value, String input) {
         int i = findBucketIndex(input);
+        Node currentNode = this.nodes[i];
+        while(currentNode.hasNext()){
+            currentNode = currentNode.getNext();
+            if(currentNode.getKey().equals(key)){
+                currentNode.setValue(value);
+                return;
+            }
+        }
         Node newNode = new Node(key, value);
         addNodeToBucket(i, newNode);
     }
@@ -69,23 +78,23 @@ public class DashaMap {
             deleteThis.getPrev().setNext(deleteThis.getNext());
             deleteThis.getNext().setPrev(deleteThis.getPrev());
         }
-        return deleteThis.getValue();
+        return null;
     }
 
-    public String performGet(String key, String input) {
+    public Integer performGet(String key, String input) {
         return findNode(key, input).getValue();
     }
 
-    public boolean isEmpty() {
-        for(Node n : this.nodes){
-            if(!n.hasNext()){
+    public boolean isThisEmpty() {
+        for(long l : this.sizes){
+            if(l != 0){
                 return false;
             }
         }
         return true;
     }
 
-    public long size() {
+    public long getSize() {
         long size = 0;
         for(long l : sizes){
             size += l;
@@ -93,27 +102,21 @@ public class DashaMap {
         return size;
     }
 
-    public long bucketSize(String key, String input) {
+    public long getBucketSize(String input) {
         return sizes[findBucketIndex(input)];
     }
 
-//    private String HashFunctionOne(String input) {
-//        if (input.length() > 0) {
-//            return String.valueOf(input.charAt(0)).toLowerCase();
-//        }
-//        return null;
-//    }
-//    private String HashFunctionTwo(String input) {
-//        if (input.length() > 0) {
-//            return "" + input.toLowerCase().charAt(1);
-//        }
-//        return null;
-//    }
-//
-//    private String HashFunctionThree(String input) {
-//        if (input.length() > 1) {
-//            return "" + input.toLowerCase().charAt(0) + input.toLowerCase().charAt(1);
-//        }
-//        return null;
-//    }
+    @Override
+    public String toString() {
+        StringBuilder output = new StringBuilder();
+        for (int i =0; i < nodes.length; i++) {
+            Node node = nodes[i];
+            output.append(beginningLetters[i] + ":\n");
+            while(node.hasNext()){
+                node = node.getNext();
+                output.append("   " + node.getKey() + " : " + node.getValue() + "\n");
+            }
+        }
+        return output.toString();
+    }
 }

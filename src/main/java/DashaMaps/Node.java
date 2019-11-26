@@ -1,20 +1,18 @@
 package DashaMaps;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.util.LinkedList;
 
 public class Node {
 
         private String key;
-        private String value;
+        private Integer value;
         private Node prev;
         private Node next;
         private Boolean thisIsFirst;
         private Boolean thisIsLast;
         private Node lastNode;
 
-        public Node(String key, String value) {
+        public Node(String key, Integer value) {
                 this.key = key;
                 this.value = value;
                 this.thisIsFirst = false;
@@ -32,11 +30,11 @@ public class Node {
                 this.key = key;
         }
 
-        public String getValue() {
+        public Integer getValue() {
                 return value;
         }
 
-        public void setValue(String value) {
+        public void setValue(Integer value) {
                 this.value = value;
         }
 

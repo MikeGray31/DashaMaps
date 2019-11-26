@@ -1,34 +1,47 @@
 package DashaMaps;
 import DashaMaps.*;
 
-public class DashaMapTwo implements DashaMapX {
-    @Override
-    public void set(String key, String value) {
+public class DashaMapTwo extends DashaMap implements DashaMapX {
 
+    private String HashFunctionTwo(String input) {
+        if (input.length() > 0) {
+            return "" + input.toLowerCase().charAt(0);
+        }
+        return null;
+    }
+    
+    @Override
+    public void set(String key, Integer value) {
+        String input = HashFunctionTwo(key);
+        performSet(key, value, input);
     }
 
     @Override
     public String delete(String key) {
-        return null;
+        String input = HashFunctionTwo(key);
+        return performDelete(key, input);
     }
 
     @Override
-    public String get(String key) {
-        return null;
+    public Integer get(String key) {
+        String input = HashFunctionTwo(key);
+        return performGet(key, input);
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return isThisEmpty();
     }
 
     @Override
     public long size() {
-        return 0;
+        return getSize();
     }
 
     @Override
     public boolean bucketSize(String key) {
-        return false;
+        String input = HashFunctionTwo(key);
+        return getBucketSize(input) != 0;
     }
+
 }

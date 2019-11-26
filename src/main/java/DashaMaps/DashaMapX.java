@@ -2,9 +2,9 @@ package DashaMaps;
 
 public interface DashaMapX {
     // fundamentals
-    void set(String key, String value);
+    void set(String key, Integer value);
     String delete(String key);
-    String get(String key);
+    Integer get(String key);
     boolean isEmpty();
     long size();
 

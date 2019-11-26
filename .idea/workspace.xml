@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b80bc1-7f4b-4db8-8cac-c01fb15ed1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMapX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashaMaps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DashaMaps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/DashaMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashaMaps/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashaMaps/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +43,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -104,7 +89,7 @@
       <updated>1573829927388</updated>
       <workItem from="1573829929190" duration="255000" />
       <workItem from="1574259293241" duration="5666000" />
-      <workItem from="1574635289481" duration="5026000" />
+      <workItem from="1574635289481" duration="13391000" />
     </task>
     <servers />
   </component>
